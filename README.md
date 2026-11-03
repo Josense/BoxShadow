@@ -10,7 +10,7 @@
 
 ```kotlin
 maven {
-    url = uri("https://raw.githubusercontent.com/Josense/BoxShadow/maven-1.0.0/")
+    url = uri("https://raw.githubusercontent.com/Josense/BoxShadow/maven-1.0.0-r2/")
     content { includeModule("io.github.josense", "boxshadow") }
 }
 ```
