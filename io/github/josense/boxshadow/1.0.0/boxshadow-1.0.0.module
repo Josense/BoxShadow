@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.josense",
+    "module": "boxshadow",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "boxshadow-1.0.0.aar",
+          "url": "boxshadow-1.0.0.aar",
+          "size": 24151,
+          "sha512": "46c4c6482cf62186f38e31b2f144c2a72f1df334ea3a728f0257400759941f0aa24a640e990e95503f116096fd74dbac6560d2698060d4fd7ad5feb5d01a3292",
+          "sha256": "15bc92fd873de8e6dea82bc31d1bbd4728a38c045dcb80d9ff67ef77dfadcc5f",
+          "sha1": "4508af6968243f6a7e265fbb63a1b30182ae55fa",
+          "md5": "965112b78a323099453dacbe724d565b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "boxshadow-1.0.0.aar",
+          "url": "boxshadow-1.0.0.aar",
+          "size": 24151,
+          "sha512": "46c4c6482cf62186f38e31b2f144c2a72f1df334ea3a728f0257400759941f0aa24a640e990e95503f116096fd74dbac6560d2698060d4fd7ad5feb5d01a3292",
+          "sha256": "15bc92fd873de8e6dea82bc31d1bbd4728a38c045dcb80d9ff67ef77dfadcc5f",
+          "sha1": "4508af6968243f6a7e265fbb63a1b30182ae55fa",
+          "md5": "965112b78a323099453dacbe724d565b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "boxshadow-1.0.0-sources.jar",
+          "url": "boxshadow-1.0.0-sources.jar",
+          "size": 4920,
+          "sha512": "7e664c1b791f2a30f824b38c1cec8f41a9e887b38bfa6aa1dc1ce2cefad908382a8c433b607e0a70dd098c06f54adfb9cdabb5c652bed74965fa16375b488c86",
+          "sha256": "e4f3ed1a74e0053af2d412f285e1947d5dcd4321a3669b49438bb8dbcec46e5e",
+          "sha1": "93cb737bdf511fe0fb9000db81922e895b100434",
+          "md5": "4520d6ce0ab37bb39c1acd114ca274b2"
+        }
+      ]
+    }
+  ]
+}
