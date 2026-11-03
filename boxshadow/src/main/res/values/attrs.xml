@@ -1,0 +1,23 @@
+<resources>
+    <declare-styleable name="BoxShadowLayout">
+        <attr name="boxCornerRadius" format="dimension" />
+        <attr name="boxTopLeftRadius" format="dimension" />
+        <attr name="boxTopRightRadius" format="dimension" />
+        <attr name="boxBottomRightRadius" format="dimension" />
+        <attr name="boxBottomLeftRadius" format="dimension" />
+        <attr name="shadowOffsetX" format="dimension" />
+        <attr name="shadowOffsetY" format="dimension" />
+        <attr name="shadowBlurRadius" format="dimension" />
+        <attr name="shadowSpread" format="dimension" />
+        <attr name="shadowColor" format="color" />
+        <attr name="boxBackground" format="reference|color" />
+        <attr name="boxStrokeWidth" format="dimension" />
+        <attr name="boxStrokeColor" format="color" />
+        <attr name="boxFillColor" format="color" />
+        <attr name="innerShadowColor" format="color" />
+        <attr name="innerShadowBlurRadius" format="dimension" />
+        <attr name="innerShadowSpread" format="dimension" />
+        <attr name="innerShadowOffsetX" format="dimension" />
+        <attr name="innerShadowOffsetY" format="dimension" />
+    </declare-styleable>
+</resources>

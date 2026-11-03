@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>BoxShadowLayout 1.0 API</title>
+<h1>BoxShadowLayout</h1>
+<p><code>com.josense.boxshadow.BoxShadowLayout</code> hosts one child and draws an outer shadow,
+fill color, optional drawable, inset shadow and border before the child.</p>
+<dl>
+<dt><code>shadow: BoxShadow</code></dt><dd>Outer shadow and shared corners. Blur must be nonnegative.
+Spread and X/Y offset can be negative. Outer shadow space is reserved during measurement.</dd>
+<dt><code>innerShadow: InnerShadow?</code></dt><dd>Inner shadow follows the inside edge of the border.
+Set to null to disable. A positive spread extends the shadow toward the center.</dd>
+<dt><code>boxFillColor: Int</code></dt><dd>ARGB fill beneath the drawable. Defaults to transparent.</dd>
+<dt><code>boxBackground: Drawable?</code></dt><dd>Drawable clipped to the card outline.</dd>
+<dt><code>boxStrokeWidth: Float</code>, <code>boxStrokeColor: Int</code></dt><dd>Width and ARGB color of
+the border. Width is reserved between the outer outline and the content.</dd>
+</dl>
+<p>Kotlin lengths use physical pixels. Use dimension units such as dp in XML.
+Corners are specified in physical top-left, top-right, bottom-right, bottom-left order.</p>
+</html>
